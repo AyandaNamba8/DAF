@@ -61,5 +61,41 @@
     display:block;
     text-align: center;
 }
+.testimonials blockquote{
+    display: grid;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    width: 400px;
+}
+.testimonials img{
+    display: grid;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
 
-
+.contact{
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 450px;
+    margin:auto;
+    padding: 15px;
+}
+.contact #message{
+    width: 250px;
+    height: 100px;
+}
+.contact #email #name{
+    width: 250px;
+}
+.contact #submit{
+    width: 100px;
+    height: 25px;
+    background-color: cadetblue;
+    color:aliceblue;
+}
